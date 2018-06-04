@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url('../images/sayagata-400px.png');
+    background-repeat: none;
+}
+
+#whitespace {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #cccccc;
+}
+
+#top {
+    max-width: 960px;
+    width: 80%;
+}
+
+.navbar  {
+    background-color: #fff;
+    padding: 0px;
+}
+
+.navbar-light .navbar-brand {
+    background-color: #4aaaa5;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.navbar .navbar-brand:hover {
+    color: #fff;
+}
+
+.nav-item {
+    padding: 5px;
+}
+
+#center {
+    border-right: 1px #ccc solid;
+    border-left: 1px #ccc solid;
+}
+
+.col-lg-10 {
+    background-color: #ffffff;
+    margin-top: 50px;
+    border: 1px #cccccc solid;
+}
+
+.col-lg-10 h1 {
+    font-size: 30px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 3px #cccccc solid;
+    margin: 30px;
+    padding-top: 10px;
+    padding-bottom: 23px;
+}
+
+
+.col-lg-4 {
+    padding: 0;
+}
+
+img {
+    width: 90%;
+    margin: 25px;
+}
+
+.col-lg-10 p {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    line-height: 30px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#content {
+    margin-bottom: 30px;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #777777;
+    color: white;
+    text-align: center;
+    border-top: 5px #4aaaa5 solid;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.footer .container p {
+    color: white;
+    margin-top: 10px;
+}
+/**contact sheet css**/
+
+h3 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+input[type=text] {
+    height: 30px;
+    width: 93%;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+input[type=text]:focus, textarea:focus {
+    outline: 1px solid #4aaaa5;
+}
+
+textarea {
+    width: 93%;
+    border: #cccccc 1px solid;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    border: none;
+    color: #fff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 30px;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background: linear-gradient(#4aaaa5, teal);
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:hover {
+    color: #cccccc;
+}
+
+/**Portfolio CSS**/
+
+#portfolio {
+    background: #fff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+    border: 1px solid #cccccc;
+    width: 80%;
+    max-width: 960px;
+}
+
+#portfolio h1 {
+    font-size: 30px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 3px #cccccc solid;
+    margin: 30px;
+    padding-bottom: 23px;
+}
+
+.portfolio_item {
+    height: 200px;
+    min-width: 200px;
+    width: 25%;
+    border: 1px #cccccc solid;
+    float: left;
+    margin: 20px;
+}
+
+.portfolio_item h3 {
+    text-emphasis: none;
+    text-align: center;
+    color: white;
+    background: linear-gradient(#4aaaa5, #50B7B1);
+    font-size: 25px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-left: 0px;
+    padding: 15px;
+    margin-top: 57%;
+}
+
+.portfolio_item:hover {
+    opacity: .75;
+}
+
+#one {
+    background-image: url("../images/novel.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#two {
+    background-image: url("../images/newsprint.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#three {
+    background-image: url("../images/collie.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#four {
+    background-image: url("../images/arabic.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#four h3 {
+    font-size: 20px;
+}
+
+#five {
+    background-image: url("../images/web-design.jpeg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
+#six {
+    background-image: url("../images/javascript.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
